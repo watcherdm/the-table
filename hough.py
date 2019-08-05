@@ -107,5 +107,6 @@ while(running):
     #left
     modeMap[mode][rlKey] = modeMap[mode][rlKey]-1
 
+video.release()
 cv2.destroyAllWindows()
 
